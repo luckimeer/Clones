@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #496D61;
+}
+
+header {
+    background-color: teal;
+    display: flex;
+    height: 10vh;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+.logo-container,
+.nav-links,
+.login-btn {
+    display: flex;
+}
+
+.logo-container {
+    flex: 4;
+}
+
+nav {
+    flex: 3;
+}
+
+.nav-links {
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.login-btn {
+    flex: 1;
+    justify-content: center;
+}
+
+.login-btn button {
+    border: rgb(49, 52, 21, 0.8);
+    background-color: rgba(49, 52, 21, 0.8);
+    border-radius: 30px;
+    height: 30px;
+    width: 80px;
+}
+
+.presentation {
+    height: 90vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    
+}
+
+.introduction {
+    flex: 1;
+}
+
+.intro-text h1 {
+    font-size: 56px;
+}
+
+.cta-buy {
+    border: rgb(49, 52, 21, 0.8);
+    background-color: rgba(49, 52, 21, 0.8);
+    border-radius: 30px;
+    height: 35px;
+    width: 120px;
+}
+
+.cta-explore {
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 30px;
+    height: 35px;
+    width: 80px;
+}
+
+.cover {
+    flex: 2;
+}
+
