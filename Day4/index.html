@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Form - DStudio Clone</title>
 </head>
 <body>
     <header>
         <div class="logo-container">
-
+            <h1>D</h1>
         </div>
 
         <nav>
             <ul class="nav-links">
-                <li><a>We're Hiring!</a></li>
-                <li><a>For Freelancer</a></li>
-                <li><a>Contact</a></li>
+                <li><a href="" class="nav-link">We're Hiring!</a></li>
+                <p>.</p>
+                <li><a href="" class="nav-link">For Freelancer</a></li>
+                <p>.</p>
+                <li><a href="" class="nav-link">Contact</a></li>
             </ul>
         </nav>
 
@@ -27,7 +30,28 @@
 
     <main>
         <section class="appt-form">
+            <form>
+                <h3>/ Get in Touch</h3>
+                <h1>Schedule an Appointment</h1>
+                <h2>Hey, my name is 
+                    <input type="text" id="name" name="name" placeholder="Type Here"> 
+                    and I'm looking for 
+                    <select id="country" name="country">
+                        <option>Developer</option>
+                        <option>Designer</option>
+                        <option>Writer</option>
+                        <option>Photographer</option>
+                        <option>Marketing Strategist</option>
+                    </select>
+                </h2>
+                <h2>Get in touch with me at <input type="text" id="email" name="emailaddress" placeholder="Your Email ID Here"> </h2>
 
+                <input type="checkbox">
+                <p>I here by accept all terms and conditions.</p>
+
+                <input type="submit" value="Send Enquiry">
+            </form>
+            
         </section>
 
         <section class="contact-info">
