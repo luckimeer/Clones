@@ -2,11 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: radial-gradient(circle at 300px 300px,
+    rgba(251, 210, 147, 0.7) 0%, rgba(251, 210, 147, 0.1) 100%);
 }
 
 header {
     align-items: center;
-    background:pink;
     display: flex;
     height: 10vh;
     margin: auto;
@@ -42,11 +47,137 @@ nav,
 }
 
 .start-btn button {
-    background-color: #F6D5A5;
-    border: 1px solid #F6D5A5;
+    background-color: rgba(251, 210, 147, 0.8);
+    border: 1px solid rgba(251, 210, 147, 1);
     border-radius: 10px;
     font-size: 14px;
     font-weight: 700;
-    height: 50px;
-    width: 150px;
+    height: 40px;
+    width: 135px;
+}
+
+
+
+main {
+    
+    height: 80vh;
+    margin: auto;
+    width: 90%;
+}
+
+.appt-form {
+    height: 70vh;
+}
+
+form h3 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form h1 {
+    font-size: 32px;
+    padding: 10px 0px 0px 0px;
+}
+
+form h2 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 70px;
+    padding: 40px 0px 30px 0px;
+}
+
+form p {
+    font-size: 14px;
+    padding: 0px 0px 30px 0px;
+}
+
+span {
+    padding-right: 15px;
+}
+
+input[type=text] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    padding: 12px 20px;
+    text-align: center;
+    width: 400px;
+}
+
+input[type=text]::placeholder {
+    color: rgba(150, 153, 155, 0.3);
+}
+
+
+select {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    color:rgba(150, 153, 155, 0.3);
+    font-size: 20px;
+    padding: 12px 20px;
+    text-align: end;
+    width: 300px;
+}
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}
+
+#enquiry {
+    background-color: black;
+    border: black;
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    width: 160px;
+}
+
+.contact-info {
+    display: flex;
+    height: 10vh;
+}
+
+.name-position,
+.personalemail-phone,
+.address,
+.workemail-phone,
+.design-contact {
+    align-self: center;
+    font-size: 14px;
+    flex: 1;
+    line-height: 25px;
+}
+
+.name-position p:nth-of-type(1) {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.design-contact p:nth-of-type(2) {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.yellow-box {
+    position: absolute;
+    background-color: rgba(251, 210, 147, 0.8);
+    border-radius: 5px;
+    left: 80%;
+    bottom: 10%;
+    height: 90px;
+    width: 200px;
+    z-index: -1;
+}
+
+footer {
+    align-items: center;
+    color: rgb(150, 153, 155);
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    height: 10vh;
+    margin: auto;
+    width: 90%;
 }
