@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 10vh;
+}
+
+ul {
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    height: 5vh;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.header-info {
+    background-color: rgb(251, 251, 253);
+    color: #1d1d1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+.image {
+    width: 100%;
+}
