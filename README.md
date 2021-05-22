@@ -10,3 +10,5 @@ https://dribbble.com/shots/15405230-Furniture-Landing-Page-Design
 
 4. Contact_Form by DStudio
 https://dribbble.com/shots/14983260-Contact-Form/attachments/6703273?mode=media
+
+5. Apple.com clone
