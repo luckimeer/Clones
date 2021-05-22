@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont;
 }
 
 header {
@@ -23,18 +24,106 @@ ul {
 
 .nav-link {
     color: white;
+    font-size: 14px;
+    font-weight: 100;
     text-decoration: none;
 }
 
 .header-info {
     background-color: rgb(251, 251, 253);
     color: #1d1d1f;
+    font-size: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 5vh;
 }
 
-.image {
-    width: 100%;
+.header-info a {
+    color: rgb(0, 102, 204);
+    text-decoration: none;
 }
+
+.ipad-pro-screen {
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 95vh;
+}
+
+.ipad-pro-screen .headline-text,
+.ipad-pro-screen .sub-text {
+    color: white;
+}
+
+.headline-text {
+    font-size: 52px;
+    font-weight: 500;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -13%);
+}
+
+.sub-text {
+    font-size: 28px;
+    font-weight: 300;
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -23%);
+}
+
+
+.screen-links {
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top: 29%;
+    left: 48%;
+    transform: translate(-48%, -29%);
+}
+
+.screen-link {
+    color: rgb(0, 102, 204);
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.iphone-screen {
+    background-color: purple;
+    position: relative;
+    height: 90vh;
+}
+
+.iphone-screen p {
+    color: darkgray;
+    font-size: 18px;
+    font-weight: 100;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -5%);  
+}
+
+.iphone-screen .screen-links {
+    top: 35%;
+    left: 48%;
+    transform: translate(-38%, -35%);
+}
+
+.iphone-screen .headline-text,
+.iphone-screen .sub-text,
+.imac-screen .headline-text,
+.imac-screen .sub-text {
+    color: black;
+}
+
+.imac-screen {
+    background-color: purple;
+    position: relative;
+    height: 90vh;
+}
+
