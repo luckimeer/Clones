@@ -44,12 +44,20 @@ ul {
     text-decoration: none;
 }
 
+.header-info a:hover {
+    text-decoration: underline;
+}
+
 .ipad-pro-screen {
     background-color: black;
     display: flex;
     align-items: flex-end;
     justify-content: center;
     height: 95vh;
+}
+
+.ipad-pro-screen .image {
+    width: 100%;
 }
 
 .ipad-pro-screen .headline-text,
