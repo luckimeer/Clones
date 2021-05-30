@@ -56,16 +56,23 @@ header {
     text-decoration: underline;
 }
 
+.product-container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    padding: 10px
+}
+
 .ipad-pro-screen {
     background-color: black;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    height: 95vh;
+    overflow: hidden;
 }
 
 .ipad-pro-screen img {
-    width: 100%;
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding-top: 13%;
 }
 
 .ipad-pro-screen .headline-text,
@@ -80,16 +87,16 @@ header {
 }
 
 .ipad-pro-screen .headline-text {
-    top: 15%;
+    top: 5%;
     left: 50%;
-    transform: translate(-50%, -15%);
+    transform: translate(-50%, -5%);
 }
 
 .iphone-screen .headline-text,
 .imac-screen .headline-text {
     top: 10%;
     left: 50%;
-    transform: translate(-50%, -13%);
+    transform: translate(-50%, -10%);
 }
 
 .sub-text {
@@ -99,9 +106,9 @@ header {
 }
 
 .ipad-pro-screen .sub-text {
-    top: 23%;
+    top: 15%;
     left: 50%;
-    transform: translate(-50%, -23%);
+    transform: translate(-50%, -15%);
 }
 
 .iphone-screen .sub-text,
@@ -111,13 +118,60 @@ header {
     transform: translate(-50%, -20%);
 }
 
+.iphone-screen,
+.imac-screen {
+    background-color: #FBFBFD;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.imac-screen img {
+    display: flex;
+    width: 100%;
+    transform: scale(2);
+    padding-top: 8%;
+}
+
+.iphone-screen img {
+    display: flex;
+    width: 100%;
+    transform: scale(2);
+    padding-top: 10%;
+}
+
+.iphone-screen p {
+    color: darkgray;
+    font-size: 18px;
+    font-weight: 100;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -28%);  
+}
+
+.iphone-screen .screen-links {
+    top: 38%;
+    left: 48%;
+    transform: translate(-38%, -38%);
+}
+
+.iphone-screen .headline-text,
+.iphone-screen .sub-text,
+.imac-screen .headline-text,
+.imac-screen .sub-text {
+    color: black;
+}
+
+/* || LINKS */
+
 .screen-links {
     font-size: 20px;
     font-weight: 400;
     position: absolute;
-    top: 29%;
+    top: 25%;
     left: 48%;
-    transform: translate(-48%, -29%);
+    transform: translate(-48%, -25%);
 }
 
 .screen-link {
@@ -148,53 +202,6 @@ header {
     text-decoration: underline;
 }
 
-.iphone-screen,
-.imac-screen {
-    background-color: purple;
-    position: relative;
-    height: 90vh;
-}
-
-.crop {
-    text-indent: -800px;
-    width: 1420px;
-    overflow: hidden;
-}
-
-.imac {
-    width: 1420px;
-    height: 700px;
-    object-fit: cover;
-}
-
-
-.iphone-screen p {
-    color: darkgray;
-    font-size: 18px;
-    font-weight: 100;
-    position: absolute;
-    top: 28%;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%, -28%);  
-}
-
-.iphone-screen .screen-links {
-    top: 38%;
-    left: 48%;
-    transform: translate(-38%, -38%);
-}
-
-.iphone-screen .headline-text,
-.iphone-screen .sub-text,
-.imac-screen .headline-text,
-.imac-screen .sub-text {
-    color: black;
-}
-
-
-
-
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -208,9 +215,6 @@ header {
     border: 1px solid white;;
     position: relative;
 }
-
-
-
 
 .grid-headline {
     font-size: 32px;
@@ -229,8 +233,6 @@ header {
     text-align: center;
     width: 500px;
 }
-
-
 
 .wwdc21 {
     background-color: black;
@@ -263,7 +265,6 @@ header {
     left: 50%;
     transform: translate(-50%, -27%);
 }
-
 
 .iphone-12-pro .grid-subtext {
     top: 17%;
