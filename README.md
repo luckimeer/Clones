@@ -12,3 +12,8 @@ https://dribbble.com/shots/15405230-Furniture-Landing-Page-Design
 https://dribbble.com/shots/14983260-Contact-Form/attachments/6703273?mode=media
 
 5. Apple.com clone
+
+6. Progressive.com clone
+
+Known Bugs
+[] Hover over Boat/PWC option or Home option and box-shadow over flows to other column.
