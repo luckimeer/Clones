@@ -628,7 +628,6 @@ li a {
     height: 35vh;
     object-fit: cover;
     width: 100%;
-
 }
 
 .covid19-cover img:hover,
@@ -643,20 +642,6 @@ li a {
     width: 100%;
     transition: width 0.5s ease-in-out;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* || GLOBAL */
 a {
@@ -694,3 +679,9 @@ ul {
 
 
 /* || MEDIA QUERIES */
+@media (max-width: 1000px) {
+    .why-display-wrapper {
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(2, 50%);
+    }
+}
