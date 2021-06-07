@@ -5,16 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+      <script src="test.js"></script>
     <title>Progressive Clone - Pride</title>
 </head>
 <body>
     <div class="alert">
-        <p>To our community, happy Pride! <a href="#">Learn more</a> about our commitment to diversity and inclusion. </p>
-        <span class="closeBtn">&times;</span>
+        <div class="alert-wrapper">
+            <p>To our community, happy Pride! <a href="#">Learn more</a> about our commitment to diversity and inclusion. </p>
+            <div id="closeBtn" class="closeBtn">&times;</div>
+        </div>
     </div>
     <header>
         <div class="logo-container">
@@ -156,29 +164,119 @@
                         <div class="line"></div>
                         <p class="savings-subtext">Average annual savings for drivers<br>who switch to Progressive and save.</p>
                     </div>
-                    
                 </div>
                 <div class="customers-col">
-                    <p class="customers-headline">CUSTOMERS</p>
-                    <h1 class="customers-figure">18 million+</h1>
-                    <div class="line"></div>
-                    <p class="customers-subtext">People trust us to insure what's <br>important to them.</p>
+                    <div class="customers-wrapper">
+                        <p class="customers-headline">CUSTOMERS</p>
+                        <h1 class="customers-figure">18 million+</h1>
+                        <div class="line"></div>
+                        <p class="customers-subtext">People trust us to insure what's <br>important to them.</p>
+                    </div>
                 </div>
                 <div class="support-col">
-                    <p class="support-headline">SUPPORT</p>
-                    <h1 class="support-figure">24/7/365</h1>
-                    <div class="line"></div>
-                    <p class="support-subtext">Day or night customer support for all <br>your questions and concerns.</p>
+                    <div class="support-wrapper">
+                        <p class="support-headline">SUPPORT</p>
+                        <h1 class="support-figure">24/7/365</h1>
+                        <div class="line"></div>
+                        <p class="support-subtext">Day or night customer support for all <br>your questions and concerns.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="product-screen">
+            <div class="product-headline">
+                <h3 class="product-text">Learn more about your products and coverages</h3>
+                <p class="product-subtext">At Progressive, we've built our business around understanding what you need and what's important for you to protect. That's <br>why we offer a wide range of insurance products to meet your specific needs, including customized coverages.</p>
+            </div>
+
+            <div class="product-wrapper">
+                <div class="product-cover">
+                    <img src="images/Landing.png">
+                </div>
+                <div class="product-list">
+                    <div class="auto-ins-opt">
+                        <a href="#" class="auto-ins-header">Auto insurance<i class="material-icons">keyboard_arrow_right</i></a>
+                        <p class="auto-ins-subtext">Buckle up with protection you can rely on.</p>
+                    </div>
+                    <div class="bundle-opt">
+                        <a href="#" class="bundle-header">Bundle auto & property<i class="material-icons">keyboard_arrow_right</i></a>
+                        <p class="bundle-subtext">Bundle with Progressive and save more - it's that easy!</p>
+                    </div>
+                    <div class="moto-ins-opt">
+                        <a href="#" class="moto-ins-header">Motorcycle insurance<i class="material-icons">keyboard_arrow_right</i></a>
+                        <p class="moto-ins-subtext">Hop on - we're the #1 motorcycle insurer in the U.S.</p>
+                    </div>
+                    <div class="rv-ins-opt">
+                        <a href="#" class="rv-ins-header">RV insurance<i class="material-icons">keyboard_arrow_right</i></a>
+                        <p class="rv-ins-subtext">Hit the highway with the coverage you need for peace of mind.</p>
+                    </div>
+                    <div class="life-ins-opt">
+                        <a href="#" class="life-ins-header">Life insurance<i class="material-icons">keyboard_arrow_right</i></a>
+                        <p class="life-ins-subtext">Give your family protection and long-lasting financial security.</p>
+                    </div>
+                    <a href="#" class="product-cta">Explore our products</a>
+                </div>
+            </div>
 
         </section>
 
         <section class="why-screen">
+            <div class="why-headline">
+                <h3 class="why-text">See why we're Progressive</h3>
+                <p class="why-subtext">Yes, we're an insurance company, but find out what makes us stand out.</p>
+            </div>
 
+            <div class="why-display-wrapper">
+                <div class="covid19-col">
+                    <a href="#" class="covid19-wrapper">
+                        <div class="covid19-cover">
+                            <img src="https://images.contentstack.io/v3/assets/blt62d40591b3650da3/bltc923e2495dbcda8f/5f581d2058508c484b360422/tiles_homepage_apron-relief_280.jpg?auto=webp">
+                        </div>
+                        <div class="covid19-text">
+                            <p class="covid19-headline">COVID-19 Assistance</p>
+                            <div class="why-line"></div>
+                            <p class="covid19-subtext">See how we're helping through our Apron Relief Program.</p>
+                        </div> 
+                    </a>
+                </div>
+                <div class="diversity-col">
+                    <a href="#" class="diversity-wrapper">
+                        <div class="diversity-cover">
+                            <h3>You Belong Here.</h3>
+                        </div>
+                        <div class="diversity-text">
+                            <p class="diversity-headline">Diversity & Inclusion</p>
+                            <div class="why-line"></div>
+                            <p class="diversity-subtext">Progress - it's in our name and <br> in our approach.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="answers-col">
+                    <a href="#" class="answers-wrapper">
+                        <div class="answers-cover">
+                            <img src="https://images.contentstack.io/v3/assets/blt62d40591b3650da3/blt3214b8adb98239a6/5ec42567957e405e0990485e/tiles_homepage_answers_280.jpg?auto=webp">
+                        </div>
+                        <div class="answers-text">
+                            <p class="answers-headline">Progressive Answers</p>
+                            <div class="why-line"></div>
+                            <p class="answers-subtext">Get simple explanations for<br>insurance terms and scenarios.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="careers-col">
+                    <a href="#" class="careers-wrapper">
+                        <div class="careers-cover">
+                            <img src="images/pexels-alexander-suhorucov-6457541.jpg">
+                        </div>
+                        <div class="careers-text">
+                            <p class="careers-headline">Careers</p>
+                            <div class="why-line"></div>
+                            <p class="careers-subtext">Join one of Fortune's 100 Best<br> Companies to Work For.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </section>
     </main>
 </body>
