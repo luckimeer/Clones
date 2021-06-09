@@ -67,6 +67,7 @@ nav,
         rgba(240, 188, 212, 1) 45%,
         rgba(0, 0, 0, 1) 100%
     );
+    background-clip: text;
     font-style: italic;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -646,6 +647,7 @@ li a {
         rgba(240, 188, 212, 1) 90%,
         rgba(0, 0, 0, 1) 100%
     );
+    background-clip: text;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -719,6 +721,7 @@ ul {
 
 
 /* || MEDIA QUERIES */
+/*
 @media (max-width: 2561px) {
     .alert p,
     .alert a,
@@ -1073,3 +1076,4 @@ ul {
     }
     
 }
+*/
