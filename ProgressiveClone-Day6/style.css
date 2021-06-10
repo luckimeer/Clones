@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Open Sans', Arial, sans-serif;}
 
+
+/* || ALERT */
+
 .alert {
     padding: 20px;
     background-color: #707070;
@@ -37,6 +40,8 @@
     text-align: end;
     cursor: pointer;
 }
+
+/* || HEADER */
 
 header {
     align-items: center;
@@ -135,12 +140,11 @@ nav,
     color: #000000;
 }
 
-
-
 .misc img {
     width: 16px;
 }
 
+/* || LANDING SCREEN */
 
 .landing-screen {
     position: relative;
@@ -185,6 +189,7 @@ nav,
     transition: box-shadow 0.3s ease-in-out;
 }
 
+/* || WELCOME SCREEN */
 
 .welcome-screen {
     display: flex;
@@ -277,7 +282,6 @@ nav,
     box-shadow: 5px 5px rgba(45, 159, 100, 1);
 }
 
-
 .auto-link a,
 li a {
     color: black;
@@ -287,7 +291,6 @@ li a {
     align-items: center;
     padding: 0px 0px 0px 10px;
 }
-
 
 .intro-other-products {
     flex: 2;
@@ -371,6 +374,17 @@ li a {
     left: 50%;
     z-index: -1;
 }
+
+.cover-img {
+    position: absolute;
+    height: auto;
+    width: 82%;
+    z-index: 2;
+    top: 5%;
+    right: 0;
+}
+
+/* || ABOUT SCREEN */
 
 .about-screen {
     height: 85vh;
@@ -474,6 +488,8 @@ li a {
     margin: auto;
 }
 
+/* || PRODUCT SCREEN */
+
 .product-screen {
     height: 120vh;
 }
@@ -486,7 +502,6 @@ li a {
 }
 
 .product-cover {
-    /*background-color: rgba(221, 244, 255, 0.5);*/
     background: linear-gradient(
         70deg,
         rgba(216, 17, 89, 0.2) 10%,
@@ -575,6 +590,7 @@ li a {
     transition: box-shadow 0.3s ease-in-out;
 }
 
+/* || WHY SCREEN */
 
 .why-screen {
     margin: 20px 0 0 0;
@@ -591,7 +607,6 @@ li a {
     margin: auto;
     margin-top: 30px;
 }
-
 
 .covid19-text,
 .diversity-text,
@@ -658,7 +673,6 @@ li a {
     -webkit-text-stroke: 0.5px black;
 }
 
-
 .careers-cover {
     height: 35vh;
     width: 100%;
@@ -685,7 +699,7 @@ li a {
     transition: width 0.5s ease-in-out;
 }
 
-/* || GLOBAL */
+/* || GENERAL STYLES */
 a {
     text-decoration: none;
 }
@@ -709,134 +723,8 @@ ul {
     max-width: 75px;
 }
 
-.cover-img {
-    position: absolute;
-    height: auto;
-    width: 82%;
-    z-index: 2;
-    top: 5%;
-    right: 0;
-}
-
-
 
 /* || MEDIA QUERIES */
-/*
-@media (max-width: 2561px) {
-    .alert p,
-    .alert a,
-    .nav-link,
-    .misc p,
-    .misc a {
-        font-size: 36px;
-        font-weight: 600;
-    }
-    .closeBtn {
-        font-size: 64px;
-    }
-    .logo-container h2 {
-        font-size: 56px;
-    }
-    .misc img {
-        width: 50px;
-    }
-    .welcome-screen {
-        height: 60vh;
-    }
-    .intro-options {
-        height: 25vh;
-    }
-    .intro-text p {
-        font-size: 48px;
-        font-weight: 300;
-    }
-    
-    .intro-text h1 {
-        font-size: 64px;
-        font-weight: 600;
-    }
-    .intro-subheader {
-        font-size: 28px;
-    }
-    .intro-subtext {
-        font-size: 24px;
-    }
-    .auto-link {
-        margin: 0 0 75px 0;
-    }
-    .intro-other-products li {
-        padding: 0px 0px 75px 0px;
-    }
-    .auto-link a,
-    li a {
-        font-size: 36px;
-    }
-    .intro-footer {
-        font-size: 28px;
-        font-weight: 300;
-    }
-    .about-screen {
-        height: 60vh;
-    }
-    .about-display-wrapper {
-        height: 40vh;
-    }
-    .product-screen {
-        height: 70vh;
-    }
-    .product-cover {
-        height: 50vh;
-    }
-    .product-cover img {
-        bottom: 0%;
-    }
-    .product-wrapper,
-    .product-list {
-        height: 50vh;
-    }
-    .why-screen {
-        height: 60vh;
-    }
-}
-
-@media (max-width: 1440px) {
-    .alert p,
-    .alert a,
-    .nav-link,
-    .misc p,
-    .misc a {
-        font-size: 20px;
-        font-weight: 600;
-    }
-    .welcome-screen {
-        height: 60vh;
-    }
-    .intro-options {
-        height: 30vh;
-    }
-    .about-screen {
-        height: 60vh;
-    }
-    .about-display-wrapper {
-        height: 40vh;
-    }
-    .product-screen {
-        height: 70vh;
-    }
-    .product-cover {
-        height: 50vh;
-    }
-    .product-cover img {
-        bottom: 0%;
-    }
-    .product-wrapper,
-    .product-list {
-        height: 50vh;
-    }
-    .why-screen {
-        height: 60vh;
-    }
-}
 
 @media (max-width: 1000px) {
     .why-display-wrapper {
@@ -1059,10 +947,6 @@ ul {
         margin: 20px 0 20px 0;
     }
 
-    .why-screen {
-        
-    }
-
     .why-line {
         padding: 0 0 10px 0;
     }
@@ -1076,4 +960,3 @@ ul {
     }
     
 }
-*/
