@@ -14,6 +14,8 @@ https://dribbble.com/shots/14983260-Contact-Form/attachments/6703273?mode=media
 5. Apple.com clone
 
 6. Progressive.com clone
+https://progressive-clone.herokuapp.com/
 
 Known Bugs
 [] Hover over Boat/PWC option or Home option and box-shadow over flows to other column.
+[] Formatting issue with iPhone screens
